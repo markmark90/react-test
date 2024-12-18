@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --border: 1px solid gray;
+  --border-radius: 3px;
+  --button-bg-color: gray;
+  --button-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 400px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+  margin: 100px auto;
+  padding: 70px 50px;
+}
